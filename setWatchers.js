@@ -17,7 +17,7 @@ const setWatchers = async ({bot, config}) => {
             })
           });
         }
-      }), 30000);
+      }), 600000);
   })
 }
 
