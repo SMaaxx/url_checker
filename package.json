@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "grammy": "^1.23.1",
+    "promise": "^8.3.0"
+  },
+  "name": "url_checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
