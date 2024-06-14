@@ -8,7 +8,8 @@ const checkSiteAvailability = (uri) => {
   const options = {
     host: address.protocol !== null ? address.host : parts[0],
     method: 'HEAD',
-    path: address.protocol !== null ? address.pathname : parts.slice(1).join('/')
+    path: address.protocol !== null ? address.pathname : parts.slice(1).join('/'),
+    port: 443
   };
 
   const req = http.request(options);
